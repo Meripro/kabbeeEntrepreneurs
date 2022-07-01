@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:homesweet/pages/client.dart';
+import 'package:homesweet/pages/crousel.dart';
 
 void main() => runApp(MaterialApp(
       initialRoute: '/client',
@@ -7,5 +8,6 @@ void main() => runApp(MaterialApp(
         // '/': (context) => Loading(),
         //  '/home': (context) => Home(),
         '/client': (context) => Client(),
+        '/crousel': (context) => Carousel(),
       },
     ));
